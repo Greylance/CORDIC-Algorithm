@@ -15,10 +15,11 @@ elif(sd<0):
 #elif(sd == 0):
 i = 1
 #for i in range(12):
+acc = 0.005 #Akurasi, semakin mendekati nol semakin akurat
 while(True):
     print(i)
     #i = 1
-    if(sd > -0.005 and sd < 0.005):
+    if(sd > -acc and sd < acc):
         break
     elif(sd == 0):
         break
